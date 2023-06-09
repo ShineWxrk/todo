@@ -1,0 +1,35 @@
+.todo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 0.3rem 0.7rem;
+  font-family: inherit;
+  font-size: 1.4rem;
+  color: #30353b;
+  border-bottom: 1px solid #bdbdbd;
+  height: 3rem;
+}
+
+.title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.title.completed {
+  color: #7c8794;
+  text-decoration: line-through;
+}
+
+.remove {
+  border: none;
+  background-color: inherit;
+  color: #30353b;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
